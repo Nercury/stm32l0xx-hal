@@ -169,14 +169,12 @@ pins! {
         MISO: [
             [NoMiso, None],
             [PA6<Analog>, AltMode::AF0],
-            [PA11<Analog>, AltMode::AF0],
-            [PB4<Analog>, AltMode::AF0]
+            [PB0<Analog>, AltMode::AF1]
         ]
         MOSI: [
             [NoMosi, None],
             [PA7<Analog>, AltMode::AF0],
-            [PA12<Analog>, AltMode::AF0],
-            [PB5<Analog>, AltMode::AF0]
+            [PB1<Analog>, AltMode::AF1]
         ]
 }
 
